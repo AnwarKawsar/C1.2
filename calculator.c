@@ -7,13 +7,12 @@ int main(){
 
     printf("\nEnter s operator (+,-,*,/) :  ");
     scanf("%c",&operator);
-
+    
     printf("Enter number 1:");
     scanf("%lf",&num1);
 
     printf("Enter number 2:");
     scanf("%lf",&num2);
-    
 
     switch (operator)
     {
@@ -33,6 +32,7 @@ int main(){
         printf("\n Result: %.2lf",result);
         break;            
     default:
+        printf("Enter a valid operator..");
         break;
     return 0;
     }
