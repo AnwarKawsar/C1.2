@@ -6,9 +6,10 @@ struct student
     int age;
     
 };
+typedef struct student std;
 
 void main(){
-    struct student  s[3];
+    std  s[3];
     for(int i=0;i<3;i++){
         printf("Enter the name of Student %d\n",i+1);
         gets(s[i].name);
