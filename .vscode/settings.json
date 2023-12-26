@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "TEMP_CONVERTOR.C": "cpp"
+        "*.embeddedhtml": "html",
+        "TEMP_CONVERTOR.C": "cpp",
+        "FILE.C": "cpp"
     }
 }
